@@ -177,7 +177,7 @@ fun YouTubeSearchSheet(
                     Column(horizontalAlignment = Alignment.CenterHorizontally) {
                         CircularProgressIndicator(color = Color(0xFF29B6F6), modifier = Modifier.size(32.dp))
                         Spacer(Modifier.height(12.dp))
-                        Text("Querying YouTube candidates…", fontSize = 11.sp, color = Color(0xFF888888))
+                        Text("Searching YouTube…", fontSize = 11.sp, color = Color(0xFF888888))
                     }
                 }
             } else if (candidates.isEmpty()) {
@@ -188,7 +188,7 @@ fun YouTubeSearchSheet(
                     contentAlignment = Alignment.Center
                 ) {
                     Text(
-                        if (queryText.isBlank()) "Type a query to search YouTube" else "No candidates found for \"$queryText\"",
+                        if (queryText.isBlank()) "Type a query to search YouTube" else "No matches for \"$queryText\"",
                         fontSize = 12.sp,
                         color = Color(0xFF777777),
                         fontFamily = FontFamily.Monospace

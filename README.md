@@ -9,9 +9,9 @@ Google Play).
 
 - **Flexible intake** — paste Spotify tracks, albums, or playlists, YouTube
   videos or playlists, or pick local audio files (MP3/FLAC/WAV) from storage.
-- **Smart matching** — each row is matched against YouTube candidates with
-  duration, title, artist, and view-count scoring; review and swap editions
-  in the release inspector before anything downloads.
+- **Smart matching** — each row is compared against YouTube search results
+  with duration, title, artist, and view-count scoring; review and pick a
+  different match before anything downloads.
 - **Proper tags** — ID3 title/artist/album/genre/year/track number plus cover
   art embedded in every file.
 - **Your choice of format** — MP3 192k, MP3 320k, or M4A/AAC.
